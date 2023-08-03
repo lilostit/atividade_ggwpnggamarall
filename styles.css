@@ -7,3 +7,7 @@ body{
 background-color: var(--cor-de-fundo);
 margin: 0;
 }
+.cabecalho{
+    background-color: var(--cor-cabecalho);
+    padding: 1em;
+    }
