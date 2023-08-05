@@ -33,26 +33,37 @@ body {
     to {background-position: 200% 0 }
   }
 
-@media screen and (min-width: 820px) {
-    /* ...propriedades css... */
+  .container__frase {
+    padding-left: 5em;
+    font-size: 20px;
+    display: block;
+}
+
+.container__titulo,
+.container__titulo--negrito {
+    font-size: 30px;
+}
 
 
+.container__titulo {
+    font-weight: 400;
+    display: block;
+}
+
+@media screen and (max-width: 800px) and (orientation: portrait) {
+    .container__frase {
+        padding-left: 5em;
+        font-size: 10px;
+        display: block;
+    }
     .container__titulo,
     .container__titulo--negrito {
-        font-size: 30px;
+        font-size: 10px;
     }
 
 
     .container__titulo {
         font-weight: 400;
-        display: block;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .container__frase {
-        padding-left: 5em;
-        font-size: 20px;
         display: block;
     }
 }
