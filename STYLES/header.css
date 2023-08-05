@@ -1,6 +1,6 @@
 @import url(../styles.css);
 .cabecalho{
-    background-color: var(--cor-do-cabecalho;
+    background-color: var(--cor-do-cabecalho);
     padding: 1em;
     }
     .container{
